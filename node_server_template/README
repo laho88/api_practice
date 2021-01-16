@@ -1,0 +1,44 @@
+
+
+### This is just a practice build and a reference for future full stack builds.
+
+## MERN stack
+
+Node.js
+npm
+React
+mongoose.db
+Express server
+
+
+## Steps to build from "ground up":
+
+1. Set up root folder:
+
+- >mkdir {name_of_project}
+- >cd {name_of_project}
+- >type nul> server.js
+- >code .
+
+
+2. VS code terminal: (Ctr `)
+
+- >npm init -y  // sets up package.json file
+- >npm install express //set up your required dependencies
+- >type nul> .gitignore // include "/node_modules" within
+- >git init //create repo in the root folder to avoid any snags later 
+
+2. server.js initialization:
+
+const express = require("express");
+const app = express();
+const {port} = 8000;
+
+
+app.list(port, ()=>{
+    console.log(`App is listening on port ${port}`);
+})
+
+>nodemon server.js
+
+--check localhost://8000
