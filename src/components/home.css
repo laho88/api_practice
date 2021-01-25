@@ -1,0 +1,43 @@
+.home {
+  padding: 5%;
+}
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 3em;
+}
+p {
+  font-weight: 500;
+}
+.drop-down {
+  width: 100px;
+  outline: none;
+  min-height: 35px;
+}
+input {
+  height: 30px;
+  width: 40px;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  border: none;
+  background-color: #0019f9;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.data p:first-of-type {
+  font-weight: bold;
+}
